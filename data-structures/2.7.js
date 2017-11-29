@@ -79,7 +79,7 @@ function sumOfPrime(n){
         sum +=arr[i];
     }
     return sum;
-}
+}P
 alert(sumOfPrime(100));
 */
 
@@ -94,3 +94,5 @@ function getMaxSubSum(arr) {
     }
     return sum;
 }
+
+console.log(getMaxSubSum([1,2,3,4,5,6,7,8,54,3]));

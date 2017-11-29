@@ -26,9 +26,9 @@ function truncate(str, maxlength){
 function extractCurrencyValue(str) {
     var num = "";
     for(i=0;i<str.length;i++){
-    if(isNumeric(str[i])){
-        num+=str[i];
-    }
+        if(isNumeric(str[i])){
+            num+=str[i];
+        }
     }
     return num;
 }
